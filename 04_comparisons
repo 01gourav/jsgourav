@@ -1,0 +1,56 @@
+
+/* console.log(undefined == 0);
+
+console.log(2 === 2);
+console.log("2" == 2);
+
+const id = Symbol("123");
+const anotherid = Symbol("123");
+
+console.log(id);
+console.log(anotherid);
+
+console.log(id === anotherid);
+
+
+const bigNumber = 2154541474644646n
+
+console.log(bigNumber);
+
+const heros = ["shaktiman", "labana", "gourav"];
+let myObj = {
+    name:  "Gourav",
+    age:  22,
+}
+
+const myFunction = function(){
+    console.log = ("hello world");
+}
+
+
+ console.log(typeof bigNumber);
+
+ // Stack(primitive) return (a copy) , Heap(non-primtive) return (reference of original valu )
+
+ let myName = "Gouravlabana"
+ let anotherName = myName
+ anotherName = "chaiaurcode"
+
+
+ console.log(myName);
+ console.log(anotherName);*/
+
+ let userOne = {
+    email: "gbkhajja@gmail.com",
+    upi: "gbkhajja@ybl.com",
+ }
+
+ let userTwo = userOne
+
+ console.log (userTwo);
+
+ userTwo.email = "ybkhajja@gmail.com"
+
+ console.log(userOne);
+ console.log(userTwo);
+
